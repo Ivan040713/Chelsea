@@ -1,0 +1,180 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #034694;
+	color: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	margin: 0;
+	font-size: 42px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+header img {
+	width: 200%;
+	max-width: 100px;
+	margin-right: 500px;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin: 40px 0;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.5s ease-in-out;
+}
+
+section.active {
+	background-color: #f2f2f2;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin: 10px 0;
+}
+
+a {
+	color: #034694;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+label {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label.radio {
+  display: inline-block;
+  margin: 10px 0;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+label.radio:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #034694;
+  box-sizing: border-box;
+}
+
+label.radio:hover:before {
+  border-color: #004b8d;
+}
+
+input[type="radio"]:checked + label.radio:before {
+  background-color: #034694;
+  border-color: #034694;
+}
+
+input[type="radio"]:focus + label.radio:before {
+  outline: 2px solid #034694;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+	background-color: #034694;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.quiz-section {
+	display: none;
+}
+
+.quiz-result {
+	display: none;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+footer {
+	background-color: #034694;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}

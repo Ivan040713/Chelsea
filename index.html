@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chelsea Football Club</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav>
+			<img src="images/logo.png" alt="Chelsea FC logo">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#player">Player</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#quiz">Quiz</a></li>
+				<li><a href="#survey">Survey</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<h2>Welcome to Chelsea Football Club</h2>
+			<p>Chelsea Football Club is a professional football club based in London, England. The club was founded in
+				1905 and has won numerous domestic and international titles over the years.</p>
+			<a href="https://en.wikipedia.org/wiki/Chelsea_F.C.">Learn more about us</a>
+		</section>
+		<section id="about">
+			<h2>History of Chelsea Football Club</h2>
+			<p>Chelsea Football Club is one of the top football clubs in the world. The club has a rich history and a
+				passionate fan base. We are committed to playing beautiful football and developing young talent.</p>
+			<li><a href="https://www.chelseafc.com/en/the-story-of-chelsea">History of Chelsea F.C.</a></li>
+			<li><a href="Trophy.html">Trophy Cabinet</a></li>
+			<li><a href="Coach.html">Coach Histroy</a></li>
+		</section>
+		<section id="news">
+			<div class="news-section">
+				<h2>Latest News on Chelsea</h2>
+				<ul>
+					<li><a href="https://www.chelseafc.com/en">Chelsea FC Official Website</a></li>
+					<li><a href="https://www.skysports.com/chelsea-news">Sky Sports Latest News on Chelsea</a></li>
+					<li><a href="https://www.bbc.com/sport/football/teams/chelsea">BBC Sport Latest News on Chelsea</a>
+					</li>
+					<li><a
+							href="https://www.chelseafc.com/en/news/article/chelsea-to-play-borussia-dortmund-in-chicago">2023
+							Chelsea Summer Friendly Game Detail</a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="player">
+			<h2>Player of Chelsea Football Club</h2>
+			<p>Chelsea Football Club is one of the top football clubs in the world. The club has a rich history and a
+				passionate fan base. We are committed to playing beautiful football and developing young talent.</p>
+			<a href="2022 - 2023 Chelsea Football Club First Team Player.html">Player of Chelsea Football Club</a>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>For any inquiries or feedback, please contact us at:</p>
+			<ul>
+				<li>Email: info@chelseafc.com</li>
+				<li>General Phone: UK: 0371 811 1955 | INT +44 20 7386 9373</li>
+				<li>Ticket Phone : UK: 0371 811 1905 | INT: +44 207 835 6000</li>
+				<li>Address: Stamford Bridge, Fulham Road, London SW6 1HS, UK</li>
+			</ul>
+		</section>
+		<section id="quiz">
+			<h2>Chelsea FC Quiz</h2>
+			<form onsubmit="return checkAnswers()">
+				<h3>Question 1</h3>
+				<p>What year was Chelsea Football Club founded?</p>
+				<label>
+					<input type="radio" name="q1" value="A">
+					<span>A) 1905</span>
+				</label>
+				<label>
+					<input type="radio" name="q1" value="B">
+					<span>B) 1915</span>
+				</label>
+				<label>
+					<input type="radio" name="q1" value="C">
+					<span>C) 1925</span>
+				</label>
+				<div id="q1-feedback"></div>
+
+				<h3>Question 2</h3>
+				<p>What is the name of Chelsea's home stadium?</p>
+				<label>
+					<input type="radio" name="q2" value="A">
+					<span>A) Old Trafford</span>
+				</label>
+				<label>
+					<input type="radio" name="q2" value="B">
+					<span>B) Anfield</span>
+				</label>
+				<label>
+					<input type="radio" name="q2" value="C">
+					<span>C) Stamford Bridge</span>
+				</label>
+				<div id="q2-feedback"></div>
+
+				<h3>Question 3</h3>
+				<p>Who is Chelsea's top scorer?</p>
+				<label>
+					<input type="radio" name="q3" value="A">
+					<span>A) Frank Lampard</span>
+				</label>
+				<label>
+					<input type="radio" name="q3" value="B">
+					<span>B) Petr Cech</span>
+				</label>
+				<label>
+					<input type="radio" name="q3" value="C">
+					<span>C) Didier Drogba</span>
+				</label>
+				<div id="q3-feedback"></div>
+
+				<h3>Question 4</h3>
+				<p>Who win most trophies in Chelsea manager?</p>
+				<label>
+					<input type="radio" name="q4" value="A">
+					<span>A) Thomas Tuchel</span>
+				</label>
+				<label>
+					<input type="radio" name="q4" value="B">
+					<span>B) Jose Mourinho</span>
+				</label>
+				<label>
+					<input type="radio" name="q4" value="C">
+					<span>C) Gianluca Vialli</span>
+				</label>
+				<div id="q4-feedback"></div>
+
+				<h3>Question 5</h3>
+				<p>How many times Chelsea win the UEFA Champions League?</p>
+				<label>
+					<input type="radio" name="q5" value="A">
+					<span>A) 1</span>
+				</label>
+				<label>
+					<input type="radio" name="q5" value="B">
+					<span>B) 2</span>
+				</label>
+				<label>
+					<input type="radio" name="q5" value="C">
+					<span>C) 3</span>
+				</label>
+				<div id="q5-feedback"></div>
+
+
+				<input type="submit" value="Submit">
+		</section>
+		</form>
+		<div id="quiz-results"></div>
+		<script>
+			function checkAnswers() {
+				const correctAnswers = {
+					'q1': 'A',
+					'q2': 'C',
+					'q3': 'A',
+					'q4': 'B',
+					'q5': 'B'
+				};
+				const userAnswers = {};
+				const quizForm = document.querySelector('form');
+				let correctCount = 0;
+				let wrongCount = 0;
+				let quizResults = '<h3>Quiz Results</h3>';
+				for (const questionName in correctAnswers) {
+					const userAnswer = quizForm[questionName].value;
+					userAnswers[questionName] = userAnswer;
+					if (userAnswer === correctAnswers[questionName]) {
+						quizResults += `<p>Question ${questionName.slice(1)}: <span class="correct">Correct</span></p>`;
+						correctCount++;
+					} else {
+						quizResults += `<p>Question ${questionName.slice(1)}: <span class="wrong">Incorrect</span> - The correct answer is ${correctAnswers[questionName].toUpperCase()}</p>`;
+						wrongCount++;
+					}
+					document.querySelector(`#q${questionName.slice(1)}-feedback`).innerHTML = `Your answer: ${userAnswer.toUpperCase()}`;
+				}
+				quizResults += `<p>Correct: ${correctCount}</p><p>Incorrect: ${wrongCount}</p>`;
+				document.querySelector('#quiz-results').innerHTML = quizResults;
+				return false;
+			}
+		</script>
+		</section>
+		<section id="survey">
+			<h2>Survey</h2>
+			<p>Please take a moment to complete our survey</p>
+			<title>Chelsea Football Club Survey</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="style.css">
+			<script src="script.js"></script>
+			</head>
+
+			<body>
+				<header>
+					<nav>
+						<img src="images/logo.png" alt="Chelsea FC logo">
+						<ul>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#news">News</a></li>
+							<li><a href="#player">Player</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="#quiz">Quiz</a></li>
+							<li><a href="#survey">Survey</a></li>
+						</ul>
+					</nav>
+				</header>
+				<main>
+					<section id="survey">
+						<h2>Survey</h2>
+						<form>
+							<label for="name">Name:</label>
+							<input type="text" name="name" pattern="^[A-Z][a-z]*" title="Capital first character"
+								required="required" />
+
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" required="required">
+
+							<label for="age">Age:</label>
+							<input type="number" name="age" min="18" required="required" />
+
+							<label for="gender">Gender:</label>
+							<select id="gender" name="gender" required="required">
+								<option value="">Please select</option>
+								<option value="male">Male</option>
+								<option value="female">Female</option>
+							</select>
+
+							<label for="support-team-year(s)">Support Team Year(s):</label>
+							<select id="sty" name="support-team-year(s)" required="required">
+								<option value="">Please select</option>
+								<option value="0-5">0-5</option>
+								<option value="6-10">6-10</option>
+								<option value="11-15">11-15</option>
+								<option value="16 or above">16 or above</option>
+							</select>
+
+							<label for="favourite-player">Who is your favourite Chelsea player?</label>
+							<input type="text" id="favourite-player" name="favourite-player" required="required" />
+
+							<label for="favourite-manager">Who is your favourite Chelsea manager?</label>
+							<input type="text" id="favourite-manager" name="favourite-manager" required="required" />
+
+							<label for="unforgettable-match(es)">Which match(es) are your memorable and unforgettable in
+								your mind?</label>
+							<textarea id="unforgettable-match(es)" name="unforgettable-match(es)" rows="5" cols="50"
+								required="required"></textarea>
+
+							<label for="favourite-moment">What is your favourite Chelsea moment?</label>
+							<textarea id="favourite-moment" name="favourite-moment" rows="5" cols="50"
+								required="required"></textarea>
+
+							<label for="player">Next year Chelsea which player(s) need to buy? Which player(s) need to
+								sell?</label>
+							<textarea id="player" name="player" rows="5" cols="50"></textarea>
+
+							<label for="season-prediction">What is your prediction for Chelsea's this season?</label>
+							<textarea id="season-prediction" name="season-prediction" rows="5" cols="50"
+								required="required"></textarea>
+
+							<label for="Others">Others</label>
+							<textarea id="others" name="others" rows="5" required="required"></textarea>
+
+							<input type="reset" value="Clear Data" />
+							<input type="submit" value="Submit" />
+						</form>
+					</section>
+				</main>
+			</body>
+			<footer>
+				<p>&copy; 2025 Chelsea Football Club</p>
+			</footer>
+
+</html>
